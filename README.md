@@ -1,5 +1,16 @@
 # Jenkins for Unity
 
+## What is Jenkins?
+
+From the Jenkins website:
+
+```
+The leading open source automation server, Jenkins provides hundreds of plugins to support building, 
+deploying and automating any project.
+```
+
+What this allows us to do is take a Unity project currently on GitHub (Or BitBucket, GitLab etc) and automatically build the project to the platforms specified. Once the build is complete we can then zip the build and automatically transfer it to a Google Drive folder for upload. This allows you to build all of your target platforms with no user intervention and without the building processing blocking your Unity instance so you can continue working.
+
 ## Prerequisites
 
 1. [Jenkins](https://jenkins.io) (This should be installed on another machine and you should be able to sign in. This is done through the web browser at LocalIpOfJenkinsMachine:8080. You can find the IP address of the Jenkins machine by using the command 'ipconfig' in Command Prompt on said machine)
