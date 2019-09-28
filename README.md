@@ -33,7 +33,7 @@ Before starting with Jenkins for Unity you need to take care of a few things wit
 
     If any of these are not installed go to the 'Available' tag, search for any that are missing and install them.
 
-    I also recommend getting ensuring that you have the 'Build Timeout' plugin. This will allow you to set a time to cancel a build       if it gets stuck in the build process somehow.
+    I also recommend ensuring that you have the 'Build Timeout' plugin. This will allow you to set a time to cancel a build       if it gets stuck in the build process somehow.
     
 2. Next, go to 'Manage Jenkins' -> 'Global Tool Configuration' and go to 'Git' and click 'Add Git' -> 'Git' and paste the path for Git.exe which you should have installed you your machine. Mine is located at: 'C:\Program Files\Git\bin\git.exe'. Give your Git install a name, I call mine 'Default'.
 
