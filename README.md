@@ -1,5 +1,9 @@
 # Jenkins for Unity
 
+## Note!
+
+This has been updated! See my new repository [here](https://github.com/CarlHalstead/Jenkins-for-Unity-with-DigitalOcean/)
+
 ## What is Jenkins?
 
 From the Jenkins website:
